@@ -12,6 +12,7 @@ export interface ICard {
     stats: IStats;
     type: string;
     actions: ICardActions;
+    _iuid?: string;
 }
 export declare enum ECardType {
     ACTION = "action",
