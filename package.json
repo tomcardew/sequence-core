@@ -1,0 +1,12 @@
+{
+  "name": "sequence-core",
+  "version": "1.0.2",
+  "description": "Common functionalities and structures used in sequence-app and sequence-service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": "Andrés Villagómez Ríos",
+  "license": "ISC"
+}
