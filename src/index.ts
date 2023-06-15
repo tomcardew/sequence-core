@@ -12,3 +12,5 @@ export {
   IStats,
   ECardSource,
 } from "./models";
+
+export { isIMatchFieldCard } from "./utils";
