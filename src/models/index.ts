@@ -5,6 +5,7 @@ import {
   IMatchFieldCardProps,
   IMatchFieldData,
   IMatchFieldPayload,
+  ECardSource,
 } from "./Match";
 
 export {
@@ -19,4 +20,5 @@ export {
   IMatchFieldCardProps,
   IMatchFieldData,
   IMatchFieldPayload,
+  ECardSource,
 };

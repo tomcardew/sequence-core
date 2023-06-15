@@ -21,3 +21,11 @@ export interface IMatchFieldPayload {
   field: IMatchFieldData;
   hand: ICard[];
 }
+
+export enum ECardSource {
+  DECK = "deck",
+  HAND = "hand",
+  ACTION = "action",
+  UPGRADE = "upgrade",
+  DISCARD = "discard",
+}

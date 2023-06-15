@@ -15,4 +15,5 @@ export interface IMatchFieldPayload {
     deck: ICard[];
     discarded: ICard[];
     field: IMatchFieldData;
+    hand: ICard[];
 }

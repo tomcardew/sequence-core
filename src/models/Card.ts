@@ -13,6 +13,8 @@ export interface ICard {
   stats: IStats;
   type: string;
   actions: ICardActions;
+
+  _iuid?: string; // internal unique id
 }
 
 export enum ECardType {
