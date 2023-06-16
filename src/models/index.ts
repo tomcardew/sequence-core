@@ -1,12 +1,13 @@
-import { IStats, ICard, ICardAction, ICardActions, ECardType } from "./Card";
-import { IDeck, IDeckCard } from "./Deck";
 import {
-  IMatchFieldCard,
-  IMatchFieldCardProps,
-  IMatchFieldData,
-  IMatchFieldPayload,
-  ECardSource,
-} from "./Match";
+  IStats,
+  ICard,
+  ICardAction,
+  ICardActions,
+  ECardType,
+  ICardProps,
+} from "./Card";
+import { IDeck, IDeckCard } from "./Deck";
+import { IMatchFieldData, IMatchFieldPayload, ECardSource } from "./Match";
 
 export {
   IStats,
@@ -16,9 +17,8 @@ export {
   ECardType,
   IDeck,
   IDeckCard,
-  IMatchFieldCard,
-  IMatchFieldCardProps,
   IMatchFieldData,
   IMatchFieldPayload,
   ECardSource,
+  ICardProps,
 };

@@ -4,6 +4,11 @@ export interface IStats {
   equipment: number;
 }
 
+export interface ICardProps {
+  selected?: boolean;
+  targeted?: boolean;
+}
+
 export interface ICard {
   name: string;
   description: string;
@@ -14,7 +19,9 @@ export interface ICard {
   type: string;
   actions: ICardActions;
 
-  _iuid?: string; // internal unique id
+  // INTERNAL USE ONLY
+  _iuid?: string;
+  properties?: ICardProps;
 }
 
 export enum ECardType {

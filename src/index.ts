@@ -5,12 +5,9 @@ export {
   ICardActions,
   IDeck,
   IDeckCard,
-  IMatchFieldCard,
-  IMatchFieldCardProps,
+  ICardProps,
   IMatchFieldData,
   IMatchFieldPayload,
   IStats,
   ECardSource,
 } from "./models";
-
-export { isIMatchFieldCard } from "./utils";
